@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <div className="flex justify-between  shadow-md p-4">
@@ -6,10 +7,18 @@ const Header = () => {
       </div>
       <div>
         <ul className="flex space-x-4 ">
-          <li>Home</li>
-          <li>Gallery</li>
-          <li> Fee</li>
-          <li>Admin</li>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/gallery">Gallery</Link>
+          </li>
+          <li>
+            <Link to="/fee">Fee</Link>
+          </li>
+          <li>
+            <Link to="/admin">Admin</Link>
+          </li>
         </ul>
       </div>
     </div>
