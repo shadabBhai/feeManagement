@@ -1,11 +1,11 @@
 # Student management Web app
 
--Header
--Hero section
+#Header
+#Hero section
 -crausal
 -moto with image
 -topper list of class X and XII
--Footer
+#Footer
 -will add map
 
 - contact us
