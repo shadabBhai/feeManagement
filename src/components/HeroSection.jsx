@@ -30,7 +30,6 @@ const HeroSection = () => {
             className="w-96 "
             src="https://img.freepik.com/free-vector/gradient-high-school-logo-design_23-2149626932.jpg"
             alt=""
-            srcset=""
           />
         </div>
         <div>

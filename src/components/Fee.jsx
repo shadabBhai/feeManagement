@@ -1,4 +1,10 @@
+import SignIn from "./SignIn";
+
 const Fee = () => {
-  return <div>fee</div>;
+  return (
+    <div className="">
+      <SignIn />
+    </div>
+  );
 };
 export default Fee;
